@@ -9,6 +9,7 @@ import { ProductListComponent } from "./product-list/product-list.component";
 import { ProductAlertsComponent } from "./product-list/product-alerts/product-alerts.component";
 import { ProductDetailsComponent } from "./product-details/product-details.component";
 import { MyResumeComponent } from "./my-resume/my-resume.component";
+import { ResumeProfileComponent } from './resume-profile/resume-profile.component';
 
 @NgModule({
   imports: [
@@ -26,7 +27,8 @@ import { MyResumeComponent } from "./my-resume/my-resume.component";
     ProductListComponent,
     ProductAlertsComponent,
     ProductDetailsComponent,
-    MyResumeComponent
+    MyResumeComponent,
+    ResumeProfileComponent
   ],
   bootstrap: [AppComponent]
 })
